@@ -1,0 +1,6 @@
+Invoking command in '/home/tanvi/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/tanvi/robot_ws/install/delivery_robot:/opt/ros/humble /usr/bin/cmake /home/tanvi/ros2_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/tanvi/ros2_ws/install/my_bot
+Invoked command in '/home/tanvi/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/tanvi/robot_ws/install/delivery_robot:/opt/ros/humble /usr/bin/cmake /home/tanvi/ros2_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/tanvi/ros2_ws/install/my_bot
+Invoking command in '/home/tanvi/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/tanvi/robot_ws/install/delivery_robot:/opt/ros/humble /usr/bin/cmake --build /home/tanvi/ros2_ws/build/my_bot -- -j12 -l12
+Invoked command in '/home/tanvi/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/tanvi/robot_ws/install/delivery_robot:/opt/ros/humble /usr/bin/cmake --build /home/tanvi/ros2_ws/build/my_bot -- -j12 -l12
+Invoking command in '/home/tanvi/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/tanvi/robot_ws/install/delivery_robot:/opt/ros/humble /usr/bin/cmake --install /home/tanvi/ros2_ws/build/my_bot
+Invoked command in '/home/tanvi/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/tanvi/robot_ws/install/delivery_robot:/opt/ros/humble /usr/bin/cmake --install /home/tanvi/ros2_ws/build/my_bot

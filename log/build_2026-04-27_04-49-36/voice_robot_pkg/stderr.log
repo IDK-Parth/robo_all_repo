@@ -1,0 +1,5 @@
+  File "/home/tanvi/ros2_ws/install/voice_robot_pkg/lib/python3.10/site-packages/voice_robot_pkg/main.py", line 339
+    finally:
+    ^^^^^^^
+SyntaxError: invalid syntax
+

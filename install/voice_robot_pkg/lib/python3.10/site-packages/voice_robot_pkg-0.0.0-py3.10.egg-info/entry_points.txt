@@ -1,0 +1,3 @@
+[console_scripts]
+voice_node = voice_robot_pkg.main:main
+
