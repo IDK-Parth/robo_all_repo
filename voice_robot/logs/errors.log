@@ -1,0 +1,64 @@
+2026-03-28 02:23:38,038 [WARNING] No speech detected (silence).
+2026-03-28 02:28:12,715 [ERROR] Failed to load Moonshine model: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 02:28:12,715 [ERROR] Moonshine error: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 02:28:12,716 [ERROR] Traceback (most recent call last):
+  File "E:\college\college projects\BE project\voice_robot\src\main.py", line 164, in _listen_moonshine
+    transcriber = _get_moonshine_transcriber()
+  File "E:\college\college projects\BE project\voice_robot\src\main.py", line 105, in _get_moonshine_transcriber
+    _moonshine_transcriber = Transcriber()
+TypeError: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+
+2026-03-28 02:28:19,286 [WARNING] No speech detected (silence). Try speaking louder or check microphone.
+2026-03-28 02:28:25,803 [ERROR] Failed to load Moonshine model: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 02:28:25,803 [ERROR] Moonshine error: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 02:28:25,804 [ERROR] Traceback (most recent call last):
+  File "E:\college\college projects\BE project\voice_robot\src\main.py", line 164, in _listen_moonshine
+    transcriber = _get_moonshine_transcriber()
+  File "E:\college\college projects\BE project\voice_robot\src\main.py", line 105, in _get_moonshine_transcriber
+    _moonshine_transcriber = Transcriber()
+TypeError: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+
+2026-03-28 03:36:11,071 [ERROR] Failed to load Moonshine model: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 03:36:11,071 [ERROR] Moonshine error: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 03:36:11,072 [ERROR] Traceback (most recent call last):
+  File "E:\college\college projects\BE project\voice_robot\src\main.py", line 164, in _listen_moonshine
+    transcriber = _get_moonshine_transcriber()
+  File "E:\college\college projects\BE project\voice_robot\src\main.py", line 105, in _get_moonshine_transcriber
+    _moonshine_transcriber = Transcriber()
+TypeError: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+
+2026-03-28 03:36:17,655 [WARNING] No speech detected (silence). Try speaking louder or check microphone.
+2026-03-28 03:36:24,292 [ERROR] Failed to load Moonshine model: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 03:36:24,293 [ERROR] Moonshine error: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 03:36:24,294 [ERROR] Traceback (most recent call last):
+  File "E:\college\college projects\BE project\voice_robot\src\main.py", line 164, in _listen_moonshine
+    transcriber = _get_moonshine_transcriber()
+  File "E:\college\college projects\BE project\voice_robot\src\main.py", line 105, in _get_moonshine_transcriber
+    _moonshine_transcriber = Transcriber()
+TypeError: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+
+2026-03-28 03:41:10,806 [ERROR] Failed to load Moonshine model: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 03:41:10,806 [ERROR] Moonshine error: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 03:41:10,807 [ERROR] Traceback (most recent call last):
+  File "E:\college\college projects\BE project\voice_robot\src\main.py", line 164, in _listen_moonshine
+    transcriber = _get_moonshine_transcriber()
+  File "E:\college\college projects\BE project\voice_robot\src\main.py", line 105, in _get_moonshine_transcriber
+    _moonshine_transcriber = Transcriber()
+TypeError: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+
+2026-03-28 03:41:17,370 [WARNING] No speech detected (silence). Try speaking louder or check microphone.
+2026-03-28 03:41:23,964 [WARNING] No speech detected (silence). Try speaking louder or check microphone.
+2026-03-28 03:47:29,921 [ERROR] Failed to load Moonshine model: Failed to load transcriber: Unknown error
+2026-03-28 03:47:29,921 [WARNING] Moonshine not available, falling back...
+2026-03-28 03:47:48,280 [WARNING] STT could not understand audio.
+2026-03-28 03:48:08,009 [WARNING] STT could not understand audio.
+2026-03-28 03:55:59,851 [WARNING] Silence detected (RMS: 0.0045)
+2026-03-28 03:56:10,805 [ERROR] Moonshine transcriber error: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 03:56:21,780 [WARNING] Could not understand audio.
+2026-03-28 03:56:43,525 [WARNING] Could not understand audio.
+2026-03-28 03:57:08,425 [WARNING] Could not understand audio.
+2026-03-28 04:00:49,942 [WARNING] Silence detected (RMS: 0.0047)
+2026-03-28 04:01:00,823 [ERROR] Moonshine transcriber error: Transcriber.__init__() missing 1 required positional argument: 'model_path'
+2026-03-28 04:01:27,275 [WARNING] Could not understand audio.
+2026-03-28 04:01:39,784 [WARNING] Could not understand audio.
+2026-03-28 04:02:24,737 [WARNING] Could not understand audio.

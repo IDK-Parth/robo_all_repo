@@ -1,0 +1,59 @@
+[
+  {
+    "ts": "2026-03-28T03:56:47",
+    "raw": "I am sorry please go to room 301",
+    "normalized": "am sorry room 301",
+    "matched": null,
+    "score": 0.0,
+    "success": false,
+    "path": []
+  },
+  {
+    "ts": "2026-03-28T04:01:51",
+    "raw": "please go to room 301",
+    "normalized": "room 301",
+    "matched": "room_301",
+    "score": 1.0,
+    "success": true,
+    "path": [
+      "medical_station",
+      "room_301"
+    ]
+  },
+  {
+    "ts": "2026-04-27T04:21:52",
+    "raw": "room 101",
+    "normalized": "room 101",
+    "matched": "room_301",
+    "score": 0.875,
+    "success": true,
+    "path": [
+      "medical_station",
+      "room_301"
+    ]
+  },
+  {
+    "ts": "2026-04-27T04:22:01",
+    "raw": "room 101",
+    "normalized": "room 101",
+    "matched": "room_301",
+    "score": 0.875,
+    "success": true,
+    "path": [
+      "medical_station",
+      "room_301"
+    ]
+  },
+  {
+    "ts": "2026-04-27T04:22:11",
+    "raw": "room 101",
+    "normalized": "room 101",
+    "matched": "room_301",
+    "score": 0.875,
+    "success": true,
+    "path": [
+      "medical_station",
+      "room_301"
+    ]
+  }
+]

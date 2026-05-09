@@ -1,0 +1,8 @@
+ultralytics
+opencv-python
+torch
+torchvision
+flask
+pyttsx3
+pyserial
+numpy
