@@ -131,21 +131,20 @@
   <joint name="left_wheel_joint" type="continuous">
     <parent link="base_link"/>
     <child link="left_wheel"/>
-    <origin xyz="0 0.15 0.07" rpy="0 0 0"/>
-    <axis xyz="0 0 1"/>
+    <origin xyz="0 0.18 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
   </joint>
 
   <joint name="right_wheel_joint" type="continuous">
     <parent link="base_link"/>
     <child link="right_wheel"/>
-    <origin xyz="0 -0.15 0.07" rpy="0 0 0"/>
-    <axis xyz="0 0 1"/>
-  </joint>
+    <origin xyz="0 -0.18 0" rpy="0 0 0"/>
+    <axis xyz="0 -1 0"/>
+  </joint> 
 
   <!-- ================= CASTER ================= -->
 
   <link name="caster_wheel">
-
     <visual>
       <geometry>
         <sphere radius="0.03"/>
@@ -222,14 +221,14 @@
 
   <gazebo reference="left_wheel">
     <material>Gazebo/Black</material>
-    <mu1>100.0</mu1>
-    <mu2>100.0</mu2>
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
   </gazebo>
 
   <gazebo reference="right_wheel">
     <material>Gazebo/Black</material>
-    <mu1>100.0</mu1>
-    <mu2>100.0</mu2>
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
   </gazebo>
 
   <gazebo reference="lidar_link">
@@ -277,29 +276,36 @@
     </sensor>
 
   </gazebo>
-
+  
+   
   <!-- ================= DIFF DRIVE ================= -->
-
-  <gazebo>
-
-    <plugin
-      name="diff_drive"
-      filename="libgazebo_ros_diff_drive.so">
-
-      <left_joint>left_wheel_joint</left_joint>
-      <right_joint>right_wheel_joint</right_joint>
-
-      <wheel_separation>0.30</wheel_separation>
-      <wheel_diameter>0.14</wheel_diameter>
-
-      <cmd_vel_topic>cmd_vel</cmd_vel_topic>
-      <odom_topic>odom</odom_topic>
-
-      <publish_odom>true</publish_odom>
-      <publish_odom_tf>true</publish_odom_tf>
-
-    </plugin>
-
+  <gazebo reference="left_wheel">
+    <mu1>100.0</mu1>
+    <mu2>100.0</mu2>
   </gazebo>
 
+  <gazebo reference="right_wheel">
+    <mu1>100.0</mu1>
+    <mu2>100.0</mu2>
+  </gazebo>
+
+  <gazebo>
+  <plugin
+      name="diff_drive"
+      filename="libgazebo_ros_diff_drive.so">
+    <left_joint>left_wheel_joint</left_joint>
+    <right_joint>right_wheel_joint</right_joint>
+
+    <wheel_separation>0.30</wheel_separation>
+    <wheel_diameter>0.14</wheel_diameter>
+
+    <update_rate>50</update_rate>
+    <cmd_vel_topic>cmd_vel</cmd_vel_topic>
+    <odom_topic>odom</odom_topic>
+
+    <publish_odom>true</publish_odom>
+    <publish_odom_tf>true</publish_odom_tf>
+
+  </plugin>
+</gazebo>
 </robot>

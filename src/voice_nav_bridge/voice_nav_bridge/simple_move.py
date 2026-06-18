@@ -38,7 +38,8 @@ class Bridge(Node):
             return
 
         self.pub.publish(twist)
-        self.get_logger().info(f"Executing: {command}")def callback(self, msg):
+        self.get_logger().info(f"Executing: {command}")
+def callback(self, msg):
     command = msg.data
     twist = Twist()
 
