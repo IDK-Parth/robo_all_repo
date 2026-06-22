@@ -3,9 +3,9 @@
 <package format="3">
   <name>voice_nav_bridge</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Bridge between voice commands and robot navigation</description>
   <maintainer email="tanvipahire04@gmail.com">tanvi</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
 
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
