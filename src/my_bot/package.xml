@@ -3,23 +3,16 @@
 <package format="3">
   <name>my_bot</name>
   <version>0.0.0</version>
-  <description>Delivery bot</description>
-  <maintainer email="tanvipahire04@gmail.com">Tanvi</maintainer>
-  <license>Apache License 2.0</license>
+  <description>TODO: Package description</description>
+  <maintainer email="my_email@email.com">MY NAME</maintainer>
+  <license>TODO: License declaration</license>
 
-  <buildtool_depend>ament_python</buildtool_depend>
-  
-  <depend>rclpy</depend>
-  <depend>geometry_msgs</depend>
-  <depend>nav_msgs</depend> 
-  <depend>sensor_msgs</depend>
-  <depend>tf2_ros</depend>
-  <depend>std_msgs</depend>  
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
   <export>
-    <build_type>ament_python</build_type>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>

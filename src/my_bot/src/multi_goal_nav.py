@@ -15,9 +15,7 @@ class MultiGoalNavigator(Node):
 
         # 🎯 Define delivery points
         self.goals = [
-            (37.0, -12.0),   # Point 1
-            (37.5, -12.5),   # Point 2
-            (36.8, -11.8),   # Point 3
+            (1.5, 1.0),  
         ]
 
     def send_goal(self, x, y):

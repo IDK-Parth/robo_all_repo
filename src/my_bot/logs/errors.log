@@ -1,0 +1,19 @@
+2026-05-02 15:25:02,617 [ERROR] TTS failed: No module named 'pyttsx3'
+2026-05-02 15:25:10,887 [ERROR] TTS failed: No module named 'pyttsx3'
+2026-05-02 15:25:45,097 [ERROR] TTS failed: This means you probably do not have eSpeak or eSpeak-ng installed!
+2026-05-02 15:25:50,344 [ERROR] TTS failed: This means you probably do not have eSpeak or eSpeak-ng installed!
+2026-05-02 15:25:50,858 [ERROR] TTS failed: This means you probably do not have eSpeak or eSpeak-ng installed!
+2026-05-02 15:25:53,922 [ERROR] TTS failed: This means you probably do not have eSpeak or eSpeak-ng installed!
+2026-05-02 15:25:54,424 [ERROR] TTS failed: This means you probably do not have eSpeak or eSpeak-ng installed!
+2026-05-02 15:25:54,928 [ERROR] TTS failed: This means you probably do not have eSpeak or eSpeak-ng installed!
+2026-05-02 15:25:57,465 [ERROR] TTS failed: This means you probably do not have eSpeak or eSpeak-ng installed!
+2026-05-02 15:25:58,968 [ERROR] TTS failed: This means you probably do not have eSpeak or eSpeak-ng installed!
+2026-05-02 15:26:01,474 [ERROR] TTS failed: This means you probably do not have eSpeak or eSpeak-ng installed!
+2026-05-02 15:28:06,989 [ERROR] TTS failed: This means you probably do not have eSpeak or eSpeak-ng installed!
+2026-05-02 15:28:07,624 [WARNING] moonshine-voice not installed
+2026-05-02 15:29:02,565 [ERROR] TTS failed: SetVoiceByName failed with unknown return code -1 for voice: gmw/en
+2026-05-02 15:29:03,121 [WARNING] moonshine-voice not installed
+2026-05-02 15:29:43,330 [ERROR] TTS failed: SetVoiceByName failed with unknown return code -1 for voice: gmw/en
+2026-05-02 15:30:05,938 [WARNING] moonshine-voice not installed
+2026-05-02 15:30:43,702 [WARNING] moonshine-voice not installed
+2026-05-02 15:35:12,052 [WARNING] moonshine-voice not installed

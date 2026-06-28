@@ -1,0 +1,14 @@
+[
+  {
+    "ts": "2026-05-02T15:25:53",
+    "raw": "go to room 301",
+    "normalized": "room 301",
+    "matched": "room_301",
+    "score": 1.0,
+    "success": true,
+    "path": [
+      "medical_station",
+      "room_301"
+    ]
+  }
+]

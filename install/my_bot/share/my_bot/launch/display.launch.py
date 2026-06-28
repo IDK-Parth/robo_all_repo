@@ -1,1 +1,24 @@
-/home/tanvi/ros2_ws/build/my_bot/launch/display.launch.py
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+
+    return LaunchDescription([
+
+        Node(
+            package='robot_state_publisher',
+            executable='robot_state_publisher',
+            parameters=[{
+                'robot_description': open(
+                    '/home/manshacan/automated-delivery-bot/src/my_bot/urdf/my_bot.urdf'
+                ).read()
+            }]
+        ),
+
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            output='screen'
+        )
+    ])
